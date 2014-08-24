@@ -4,7 +4,7 @@ python:
 install:
  - sudo apt-get update
 script:
- - build_reproducibly.sh
+ - bash build_reproducibly.sh
 env:
   - PACKAGE_NAME=make
   - PACKAGE_NAME=hello  
